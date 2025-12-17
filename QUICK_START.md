@@ -1,10 +1,8 @@
 # 🚀 Quick Start Guide
 
-## Your Repository is Now Ready!
+## Welcome!
 
-### What Just Happened?
-
-Your messy thesis repo has been transformed into a **professional, modular research codebase**. Here's how to use it:
+This guide will get you up and running with the **Diffusion Processes for Generative Hierarchical Models** codebase in minutes.
 
 ---
 
@@ -245,14 +243,9 @@ class ExperimentConfig:
 3. ✅ Explore `Notebooks/01_getting_started.ipynb`
 4. ⏳ Customize configs for your thesis experiments
 5. ⏳ Archive old notebooks to `Notebooks/old/`
-6. ⏳ Push to GitHub:
-   ```bash
-   git add .
-   git commit -m "Reorganize into modular structure"
-   git push
-   ```
-
----
+6. ⏳ Push to GitHub:experiments
+5. ⏳ Create your own experiment configurations
+6. ⏳ Analyze results and iterate
 
 ## 📖 Documentation
 
@@ -261,21 +254,20 @@ class ExperimentConfig:
 - **REORGANIZATION_SUMMARY.md** - What changed
 - **This file** - Quick reference
 
----
-
-## 💡 Tips
-
+---project documentation
+- **MIGRATION_GUIDE.md** - Understanding the codebase structure
+- **This file** - Quick reference guid
 - Keep old notebooks in `Notebooks/` for reference
 - Use `outputs/` for experiment results (gitignored)
 - Commit code changes, not data or models
 - Create new configs instead of hardcoding parameters
 - Use meaningful experiment names
 
----
-
-## ✨ You're All Set!
-
-Your repository is now:
+--Use `outputs/` for experiment results (automatically gitignored)
+- Commit code changes, not data or model checkpoints
+- Create new configs instead of hardcoding parameters
+- Use meaningful experiment names for tracking
+- Explore the provided notebooks to understand the workflow
 - ✅ Professional and organized
 - ✅ Reproducible and documented
 - ✅ Ready for thesis work
